@@ -39,6 +39,7 @@ $ vi .env
 
 ## Build the containers
 ```
+# In case the following does not work, you might need to: sudo usermod -aG docker $(whoami) # (you have to log out and log back in)
 $ docker-compose build
 or
 $ docker-compose -f docker-compose-nginx.yml build
